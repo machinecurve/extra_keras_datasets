@@ -40,6 +40,8 @@ from extra_keras_datasets import emnist
 
 <a href="./assets/emnist-byclass.png"><img src="./assets/emnist-byclass.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
 
+---
+
 ### EMNIST-ByMerge
 
 ```
