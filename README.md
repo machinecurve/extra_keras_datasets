@@ -18,6 +18,13 @@ Hi there, and welcome to the `extra_keras_datasets` module! This extension to th
 - [Contributors and other references](#contributors-and-other-references)
 - [License](#license)
 
+## How to use this module?
+### Dependencies
+TODO.
+
+### Installation procedure
+TODO.
+
 ## Datasets
 
 ### EMNIST-Balanced
