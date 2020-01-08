@@ -1,10 +1,10 @@
-<p align="center">
-  <img src="assets/extra_k_logo.png">
+<p align="center" width="250">
+  <img src="assets/extra_k_logo.png" style="border: 3px solid #f6f8fa;">
 </p>
 
 Hi there, and welcome to the `extra_keras_datasets` module! This extension to the original `keras.datasets` module offers additional datasets that can easily be integrated with your Keras models, in ways almost equal to how you're currently using the traditional Datasets module
 
-**~ Powered by MachineCurve at www.machinecurve.com ~**
+**Powered by MachineCurve at www.machinecurve.com**
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
