@@ -25,10 +25,24 @@ Hi there, and welcome to the `extra_keras_datasets` module! This extension to th
 <a href="./assets/emnist-balanced.png"><img src="./assets/emnist-balanced.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
 
 ### EMNIST-ByClass
+
+<a href="./assets/emnist-byclass.png"><img src="./assets/emnist-byclass.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+
 ### EMNIST-ByMerge
+
+<a href="./assets/emnist-bymerge.png"><img src="./assets/emnist-bymerge.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+
 ### EMNIST-Digits
+
+<a href="./assets/emnist-digits.png"><img src="./assets/emnist-digits.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+
 ### EMNIST-Letters
+
+<a href="./assets/emnist-letters.png"><img src="./assets/emnist-letters.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+
 ### EMNIST-MNIST
+
+<a href="./assets/emnist-mnist.png"><img src="./assets/emnist-mnist.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
 
 ## Contributors and other references
 * **[tlindbloom](https://stackoverflow.com/users/4008755/tlindbloom) on StackOverflow:** [loading EMNIST-letters dataset](https://stackoverflow.com/questions/51125969/loading-emnist-letters-dataset/53547262#53547262) in [emnist.py](./emnist.py).
