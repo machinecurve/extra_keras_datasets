@@ -21,6 +21,9 @@ Hi there, and welcome to the `extra_keras_datasets` module! This extension to th
 ## Datasets
 
 ### EMNIST-Balanced
+
+<a href="./assets/emnist-balanced.png"><img src="./assets/emnist-balanced.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+
 ### EMNIST-ByClass
 ### EMNIST-ByMerge
 ### EMNIST-Digits
