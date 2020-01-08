@@ -22,25 +22,55 @@ Hi there, and welcome to the `extra_keras_datasets` module! This extension to th
 
 ### EMNIST-Balanced
 
+```
+from extra_keras_datasets import emnist
+(input_train, target_train), (input_test, target_test) = emnist.load_data(type='balanced')
+```
+
 <a href="./assets/emnist-balanced.png"><img src="./assets/emnist-balanced.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
 
 ### EMNIST-ByClass
+
+```
+from extra_keras_datasets import emnist
+(input_train, target_train), (input_test, target_test) = emnist.load_data(type='byclass')
+```
 
 <a href="./assets/emnist-byclass.png"><img src="./assets/emnist-byclass.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
 
 ### EMNIST-ByMerge
 
+```
+from extra_keras_datasets import emnist
+(input_train, target_train), (input_test, target_test) = emnist.load_data(type='bymerge')
+```
+
 <a href="./assets/emnist-bymerge.png"><img src="./assets/emnist-bymerge.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
 
 ### EMNIST-Digits
+
+```
+from extra_keras_datasets import emnist
+(input_train, target_train), (input_test, target_test) = emnist.load_data(type='digits')
+```
 
 <a href="./assets/emnist-digits.png"><img src="./assets/emnist-digits.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
 
 ### EMNIST-Letters
 
+```
+from extra_keras_datasets import emnist
+(input_train, target_train), (input_test, target_test) = emnist.load_data(type='letters')
+```
+
 <a href="./assets/emnist-letters.png"><img src="./assets/emnist-letters.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
 
 ### EMNIST-MNIST
+
+```
+from extra_keras_datasets import emnist
+(input_train, target_train), (input_test, target_test) = emnist.load_data(type='mnist')
+```
 
 <a href="./assets/emnist-mnist.png"><img src="./assets/emnist-mnist.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
 
