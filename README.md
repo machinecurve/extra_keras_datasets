@@ -2,7 +2,7 @@
   <img src="assets/extra_k_logo_neg.png" width="300" style="border: 3px solid #f6f8fa;">
 </p>
 
-Hi there, and welcome to the `extra_keras_datasets` module! This extension to the original `keras.datasets` module offers easy access to additional datasets that can easily be integrated with your Keras models, in ways almost equal to how you're currently importing them.
+Hi there, and welcome to the `extra_keras_datasets` module! This extension to the original `keras.datasets` module offers easy access to additional datasets based, in ways almost equal to how you're currently importing them.
 
 **Powered by MachineCurve at www.machinecurve.com**
 
