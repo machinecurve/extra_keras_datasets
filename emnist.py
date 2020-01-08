@@ -29,7 +29,7 @@ def load_data(path='emnist_matlab.npz', type='balanced'):
   with ZipFile(path, 'r') as opened_zip:
 
     # Read file and temporarily store it
-    file_name = f'{type}.mat'
+    file_name = f'./{type}.mat'
     f = open(file_name, 'wb')
     f.write(opened_zip.read(f'matlab/emnist-{type}.mat'))
     f.close()
@@ -42,6 +42,9 @@ def load_data(path='emnist_matlab.npz', type='balanced'):
     target_train = data['train'][0,0]['labels'][0,0].flatten()
     input_test = data['test'][0,0]['images'][0,0]
     target_test = data['test'][0,0]['labels'][0,0].flatten()
+
+    # Remove data when loaded
+    os.remove(file_name)
 
     # Reshape input data
     # Source: https://stackoverflow.com/a/53547262
