@@ -8,6 +8,9 @@ Hi there, and welcome to the `extra_keras_datasets` module! This extension to th
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
+- [How to use this module?](#how-to-use-this-module-)
+  * [Dependencies](#dependencies)
+  * [Installation procedure](#installation-procedure)
 - [Datasets](#datasets)
   * [EMNIST-Balanced](#emnist-balanced)
   * [EMNIST-ByClass](#emnist-byclass)
