@@ -96,6 +96,28 @@ from extra_keras_datasets import emnist
 
 ---
 
+### KMNIST-KMNIST
+
+```
+from extra_keras_datasets import kmnist
+(input_train, target_train), (input_test, target_test) = kmnist.load_data(type='kmnist')
+```
+
+<a href="./assets/kmnist-kmnist.png"><img src="./assets/kmnist-kmnist.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+
+---
+
+### KMNIST-K49
+
+```
+from extra_keras_datasets import kmnist
+(input_train, target_train), (input_test, target_test) = kmnist.load_data(type='k49')
+```
+
+<a href="./assets/kmnist-k49.png"><img src="./assets/kmnist-k49.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+
+---
+
 ## Contributors and other references
 * **[tlindbloom](https://stackoverflow.com/users/4008755/tlindbloom) on StackOverflow:** [loading EMNIST-letters dataset](https://stackoverflow.com/questions/51125969/loading-emnist-letters-dataset/53547262#53547262) in [emnist.py](./emnist.py).
 
