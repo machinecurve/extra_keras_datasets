@@ -28,7 +28,7 @@ Hi there, and welcome to the `extra_keras_datasets` module! This extension to th
 TODO.
 
 ### Installation procedure
-TODO.
+Installing is really easy, and can be done with PIP: `pip install extra-keras-datasets`.
 
 ## Datasets
 
