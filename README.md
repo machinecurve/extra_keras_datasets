@@ -42,7 +42,7 @@ from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='balanced')
 ```
 
-<a href="./assets/emnist-balanced.png"><img src="./assets/emnist-balanced.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+<a href="./assets/emnist-balanced.png"><img src="./assets/emnist-balanced.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
@@ -54,7 +54,7 @@ from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='byclass')
 ```
 
-<a href="./assets/emnist-byclass.png"><img src="./assets/emnist-byclass.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+<a href="./assets/emnist-byclass.png"><img src="./assets/emnist-byclass.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
@@ -66,7 +66,7 @@ from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='bymerge')
 ```
 
-<a href="./assets/emnist-bymerge.png"><img src="./assets/emnist-bymerge.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+<a href="./assets/emnist-bymerge.png"><img src="./assets/emnist-bymerge.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
@@ -78,7 +78,7 @@ from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='digits')
 ```
 
-<a href="./assets/emnist-digits.png"><img src="./assets/emnist-digits.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+<a href="./assets/emnist-digits.png"><img src="./assets/emnist-digits.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
@@ -90,7 +90,7 @@ from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='letters')
 ```
 
-<a href="./assets/emnist-letters.png"><img src="./assets/emnist-letters.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+<a href="./assets/emnist-letters.png"><img src="./assets/emnist-letters.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
@@ -102,7 +102,7 @@ from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='mnist')
 ```
 
-<a href="./assets/emnist-mnist.png"><img src="./assets/emnist-mnist.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+<a href="./assets/emnist-mnist.png"><img src="./assets/emnist-mnist.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
@@ -114,7 +114,7 @@ from extra-keras-datasets import kmnist
 (input_train, target_train), (input_test, target_test) = kmnist.load_data(type='kmnist')
 ```
 
-<a href="./assets/kmnist-kmnist.png"><img src="./assets/kmnist-kmnist.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+<a href="./assets/kmnist-kmnist.png"><img src="./assets/kmnist-kmnist.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
@@ -126,7 +126,7 @@ from extra-keras-datasets import kmnist
 (input_train, target_train), (input_test, target_test) = kmnist.load_data(type='k49')
 ```
 
-<a href="./assets/kmnist-k49.png"><img src="./assets/kmnist-k49.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+<a href="./assets/kmnist-k49.png"><img src="./assets/kmnist-k49.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
@@ -138,7 +138,7 @@ from extra-keras-datasets import svhn
 (input_train, target_train), (input_test, target_test) = svhn.load_data(type='normal')
 ```
 
-<a href="./assets/svhn-normal.png"><img src="./assets/svhn-normal.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+<a href="./assets/svhn-normal.png"><img src="./assets/svhn-normal.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
