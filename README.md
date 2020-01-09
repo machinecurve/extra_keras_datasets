@@ -150,7 +150,7 @@ from extra-keras-datasets import svhn
 (input_train, target_train), (input_test, target_test) = svhn.load_data(type='extra')
 ```
 
-<a href="./assets/svhn-extra.png"><img src="./assets/svhn-extra.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+<a href="./assets/svhn-extra.png"><img src="./assets/svhn-extra.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
