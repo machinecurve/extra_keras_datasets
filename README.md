@@ -35,6 +35,7 @@ Installing is really easy, and can be done with [PIP](https://pypi.org/project/e
 ## Datasets
 
 ### EMNIST-Balanced
+Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-Balanced` contains 131.600 characters across 47 balanced classes.
 
 ```
 from extra-keras-datasets import emnist
@@ -46,6 +47,7 @@ from extra-keras-datasets import emnist
 ---
 
 ### EMNIST-ByClass
+Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-ByClass` contains 814.255 characters across 62 unbalanced classes.
 
 ```
 from extra-keras-datasets import emnist
@@ -57,6 +59,7 @@ from extra-keras-datasets import emnist
 ---
 
 ### EMNIST-ByMerge
+Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-ByMerge` contains 814.255 characters across 47 unbalanced classes.
 
 ```
 from extra-keras-datasets import emnist
@@ -68,6 +71,7 @@ from extra-keras-datasets import emnist
 ---
 
 ### EMNIST-Digits
+Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-Digits` contains 280.000 characters across 10 balanced classes (digits only).
 
 ```
 from extra-keras-datasets import emnist
@@ -79,6 +83,7 @@ from extra-keras-datasets import emnist
 ---
 
 ### EMNIST-Letters
+Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-Letters` contains 145.600 characters across 26 balanced classes (letters only).
 
 ```
 from extra-keras-datasets import emnist
@@ -90,6 +95,7 @@ from extra-keras-datasets import emnist
 ---
 
 ### EMNIST-MNIST
+Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-MNIST` contains 70.000 characters across 10 balanced classes (equal to `keras.datasets.mnist`).
 
 ```
 from extra-keras-datasets import emnist
@@ -101,6 +107,7 @@ from extra-keras-datasets import emnist
 ---
 
 ### KMNIST-KMNIST
+Kuzushiji-MNIST is a drop-in replacement for the MNIST dataset: it contains 70.000 28x28 grayscale images of Japanese Kuzushiji characters.
 
 ```
 from extra-keras-datasets import kmnist
@@ -112,6 +119,7 @@ from extra-keras-datasets import kmnist
 ---
 
 ### KMNIST-K49
+Kuzushiji-49 extends Kuzushiji-MNIST and contains 270.912 images across 49 classes.
 
 ```
 from extra-keras-datasets import kmnist
@@ -123,6 +131,7 @@ from extra-keras-datasets import kmnist
 ---
 
 ### SVHN-Normal
+The Street View House Numbers dataset (SVHN) contains 32x32 cropped images of house numbers obtained from Google Street View. There are 73.257 digits for training and 26.032 digits for testing. **Noncommercial** use is allowed only: [see the SVHN website for more information](http://ufldl.stanford.edu/housenumbers/).
 
 ```
 from extra-keras-datasets import svhn
@@ -134,6 +143,7 @@ from extra-keras-datasets import svhn
 ---
 
 ### SVHN-Extra
+SVHN-Extra extends SVHN-Normal with 531.131 less difficult samples and contains a total of 604.388 digits for training and 26.032 digits for testing. **Noncommercial** use is allowed only: [see the SVHN website for more information](http://ufldl.stanford.edu/housenumbers/).
 
 ```
 from extra-keras-datasets import svhn
