@@ -18,6 +18,8 @@ Hi there, and welcome to the `extra_keras_datasets` module! This extension to th
   * [EMNIST-Digits](#emnist-digits)
   * [EMNIST-Letters](#emnist-letters)
   * [EMNIST-MNIST](#emnist-mnist)
+  * [KMNIST-KMNIST](#kmnist-kmnist)
+  * [KMNIST-K49](#kmnist-k49)
 - [Contributors and other references](#contributors-and-other-references)
 - [License](#license)
 
