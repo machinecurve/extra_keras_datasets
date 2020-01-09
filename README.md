@@ -22,6 +22,7 @@ Hi there, and welcome to the `extra-keras-datasets` module! This extension to th
   * [KMNIST-K49](#kmnist-k49)
   * [SVHN-Normal](#svhn-normal)
   * [SVHN-Extra](#svhn-extra)
+  * [STL-10](#stl-10)
 - [Contributors and other references](#contributors-and-other-references)
 - [License](#license)
 
@@ -154,6 +155,18 @@ from extra-keras-datasets import svhn
 
 ---
 
+### STL-10
+The STL-10 dataset is an image recognition dataset for developing unsupervised feature learning, deep learning, self-taught learning algorithms. It contains 5.000 training images and 8.000 testing images, and represents 10 classes in total (airplane, bird, car, cat, deer, dog, horse, monkey, ship, truck).
+
+```
+from extra-keras-datasets import stl10
+(input_train, target_train), (input_test, target_test) = stl10.load_data()
+```
+
+<a href="./assets/stl10.png"><img src="./assets/stl10.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
+
+---
+
 ## Contributors and other references
 * **EMNIST dataset:**
   * Cohen, G., Afshar, S., Tapson, J., & van Schaik, A. (2017). EMNIST: an extension of MNIST to handwritten letters. Retrieved from http://arxiv.org/abs/1702.05373
@@ -162,6 +175,8 @@ from extra-keras-datasets import svhn
   * Clanuwat, T., Bober-Irizar, M., Kitamoto, A., Lamb, A., Yamamoto, K., & Ha, D. (2018). Deep learning for classical Japanese literature. arXiv preprint arXiv:1812.01718. Retrieved from https://arxiv.org/abs/1812.01718
 * **SVHN dataset:**
   * Netzer, Y., Wang, T., Coates, A., Bissacco, A., Wu, B., & Ng, A. Y. (2011). Reading digits in natural images with unsupervised feature learning. Retrieved from http://ufldl.stanford.edu/housenumbers/nips2011_housenumbers.pdf / http://ufldl.stanford.edu/housenumbers/
+* **STL-10 dataset:**
+  * Coates, A., Ng, A., & Lee, H. (2011, June). An analysis of single-layer networks in unsupervised feature learning. In Proceedings of the fourteenth international conference on artificial intelligence and statistics (pp. 215-223). Retrieved from http://cs.stanford.edu/~acoates/papers/coatesleeng_aistats_2011.pdf
 
 ## License
 The licenseable parts of this repository are licensed under a [MIT License](./LICENSE), so you're free to use this repo in your machine learning projects / blogs / exercises, and so on. Happy engineering! 🚀
