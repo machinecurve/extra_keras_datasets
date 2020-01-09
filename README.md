@@ -2,7 +2,7 @@
   <img src="assets/extra_k_logo_neg.png" width="300" style="border: 3px solid #f6f8fa;">
 </p>
 
-Hi there, and welcome to the `extra_keras_datasets` module! This extension to the original `keras.datasets` module offers easy access to additional datasets, in ways almost equal to how you're currently importing them.
+Hi there, and welcome to the `extra-keras-datasets` module! This extension to the original `keras.datasets` module offers easy access to additional datasets, in ways almost equal to how you're currently importing them.
 
 **Powered by MachineCurve at www.machinecurve.com**
 
@@ -28,14 +28,14 @@ Hi there, and welcome to the `extra_keras_datasets` module! This extension to th
 TODO.
 
 ### Installation procedure
-Installing is really easy, and can be done with PIP: `pip install extra-keras-datasets`.
+Installing is really easy, and can be done with [PIP](https://pypi.org/project/extra-keras-datasets/): `pip install extra-keras-datasets`.
 
 ## Datasets
 
 ### EMNIST-Balanced
 
 ```
-from extra_keras_datasets import emnist
+from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='balanced')
 ```
 
@@ -46,7 +46,7 @@ from extra_keras_datasets import emnist
 ### EMNIST-ByClass
 
 ```
-from extra_keras_datasets import emnist
+from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='byclass')
 ```
 
@@ -57,7 +57,7 @@ from extra_keras_datasets import emnist
 ### EMNIST-ByMerge
 
 ```
-from extra_keras_datasets import emnist
+from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='bymerge')
 ```
 
@@ -68,7 +68,7 @@ from extra_keras_datasets import emnist
 ### EMNIST-Digits
 
 ```
-from extra_keras_datasets import emnist
+from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='digits')
 ```
 
@@ -79,7 +79,7 @@ from extra_keras_datasets import emnist
 ### EMNIST-Letters
 
 ```
-from extra_keras_datasets import emnist
+from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='letters')
 ```
 
@@ -90,7 +90,7 @@ from extra_keras_datasets import emnist
 ### EMNIST-MNIST
 
 ```
-from extra_keras_datasets import emnist
+from extra-keras-datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='mnist')
 ```
 
@@ -101,7 +101,7 @@ from extra_keras_datasets import emnist
 ### KMNIST-KMNIST
 
 ```
-from extra_keras_datasets import kmnist
+from extra-keras-datasets import kmnist
 (input_train, target_train), (input_test, target_test) = kmnist.load_data(type='kmnist')
 ```
 
@@ -112,7 +112,7 @@ from extra_keras_datasets import kmnist
 ### KMNIST-K49
 
 ```
-from extra_keras_datasets import kmnist
+from extra-keras-datasets import kmnist
 (input_train, target_train), (input_test, target_test) = kmnist.load_data(type='k49')
 ```
 
