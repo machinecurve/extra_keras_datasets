@@ -20,6 +20,8 @@ Hi there, and welcome to the `extra-keras-datasets` module! This extension to th
   * [EMNIST-MNIST](#emnist-mnist)
   * [KMNIST-KMNIST](#kmnist-kmnist)
   * [KMNIST-K49](#kmnist-k49)
+  * [SVHN-Normal](#svhn-normal)
+  * [SVHN-Extra](#svhn-extra)
 - [Contributors and other references](#contributors-and-other-references)
 - [License](#license)
 
@@ -120,12 +122,36 @@ from extra-keras-datasets import kmnist
 
 ---
 
+### SVHN-Normal
+
+```
+from extra-keras-datasets import svhn
+(input_train, target_train), (input_test, target_test) = svhn.load_data(type='normal')
+```
+
+<a href="./assets/svhn-normal.png"><img src="./assets/svhn-normal.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+
+---
+
+### SVHN-Extra
+
+```
+from extra-keras-datasets import svhn
+(input_train, target_train), (input_test, target_test) = svhn.load_data(type='extra')
+```
+
+<a href="./assets/svhn-extra.png"><img src="./assets/svhn-extra.png" width="500" style="border: 3px solid #f6f8fa;" /></a>
+
+---
+
 ## Contributors and other references
 * **EMNIST dataset:**
   * Cohen, G., Afshar, S., Tapson, J., & van Schaik, A. (2017). EMNIST: an extension of MNIST to handwritten letters. Retrieved from http://arxiv.org/abs/1702.05373
   * [tlindbloom](https://stackoverflow.com/users/4008755/tlindbloom) on StackOverflow: [loading EMNIST-letters dataset](https://stackoverflow.com/questions/51125969/loading-emnist-letters-dataset/53547262#53547262) in [emnist.py](./emnist.py).
 * **KMNIST dataset:**
   * Clanuwat, T., Bober-Irizar, M., Kitamoto, A., Lamb, A., Yamamoto, K., & Ha, D. (2018). Deep learning for classical Japanese literature. arXiv preprint arXiv:1812.01718. Retrieved from https://arxiv.org/abs/1812.01718
+* **SVHN dataset:**
+  * Netzer, Y., Wang, T., Coates, A., Bissacco, A., Wu, B., & Ng, A. Y. (2011). Reading digits in natural images with unsupervised feature learning. Retrieved from http://ufldl.stanford.edu/housenumbers/nips2011_housenumbers.pdf / http://ufldl.stanford.edu/housenumbers/
 
 ## License
 The licenseable parts of this repository are licensed under a [MIT License](./LICENSE), so you're free to use this repo in your machine learning projects / blogs / exercises, and so on. Happy engineering! 🚀
