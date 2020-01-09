@@ -20,6 +20,8 @@ Hi there, and welcome to the `extra-keras-datasets` module! This extension to th
   * [EMNIST-MNIST](#emnist-mnist)
   * [KMNIST-KMNIST](#kmnist-kmnist)
   * [KMNIST-K49](#kmnist-k49)
+  * [SVHN-Normal](#svhn-normal)
+  * [SVHN-Extra](#svhn-extra)
 - [Contributors and other references](#contributors-and-other-references)
 - [License](#license)
 
