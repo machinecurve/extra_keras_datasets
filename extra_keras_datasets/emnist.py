@@ -52,4 +52,4 @@ def load_data(path='emnist_matlab.npz', type='balanced'):
     input_test = input_test.reshape((input_test.shape[0], 28, 28), order='F')
 
     # Return data
-    return (input_train, target_train), (input_test, target_train)
+    return (input_train, target_train), (input_test, target_test)
