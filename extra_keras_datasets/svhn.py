@@ -52,7 +52,7 @@ def load_data(path='svhn_matlab.npz', type='normal'):
     input_extra = mat_extra['X']
     input_extra = np.rollaxis(input_extra, 3, 0)
     target_extra = mat_extra['y'].flatten()
-    input_train = np.insert(input_extra, input_train)
+    input_train = np.insert(input_extra, len(input_train), values = input_train)
     target_train = np.concatenate(target_extra, target_train)
 
   # Return data
