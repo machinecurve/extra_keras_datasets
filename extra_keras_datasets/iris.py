@@ -64,7 +64,7 @@ def line_to_list(line):
   elements = line.split(',')
   if len(elements) > 1:
     target = target_string_to_int(elements[4])
-    full_sample = elements[0:4]
+    full_sample = [float(i) for i in elements[0:4]]
     full_sample.append(target)
     return tuple(full_sample)
   else:
