@@ -37,6 +37,7 @@ def load_data(path='iris.npz', test_split=0.2):
     if sample is not None:
       samples.append(sample)
   f.close()
+
   # Randomly shuffle the data
   np.random.shuffle(samples)
 
