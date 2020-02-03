@@ -2,17 +2,17 @@ from distutils.core import setup
 setup(
   name = 'extra_keras_datasets',
   packages = ['extra_keras_datasets'],
-  version = '0.1.4',
+  version = '0.1.5',
   license='MIT',
   description = 'Extending the Keras Datasets module with extra ones.',
   long_description = 'Extending the Keras Datasets module with extra ones.',
   author = 'Christian Versloot',
   author_email = 'chris@machinecurve.com',
   url = 'https://github.com/christianversloot/extra_keras_datasets',
-  download_url = 'https://github.com/christianversloot/extra_keras_datasets/archive/0.1.4.tar.gz',
+  download_url = 'https://github.com/christianversloot/extra_keras_datasets/archive/0.1.5.tar.gz',
   keywords = ['keras', 'datasets', 'machine learning'],
   install_requires=[
-    'keras',
+    'tensorflow>=2.0.0',
     'numpy',
     'scipy'
   ],
