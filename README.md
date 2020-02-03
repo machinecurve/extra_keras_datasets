@@ -29,7 +29,11 @@ Hi there, and welcome to the `extra-keras-datasets` module! This extension to th
 
 ## How to use this module?
 ### Dependencies
-TODO.
+**Make sure to install TensorFlow!**
+This package makes use of the TensorFlow 2.0+ package and specifically `tensorflow.keras`. Therefore, make sure to install TensorFlow - this has to be done yourself as PIP packages cannot distinguish between CPU and GPU versions properly.
+
+* `pip install tensorflow`
+* `pip install tensorflow-gpu`
 
 ### Installation procedure
 Installing is really easy, and can be done with [PIP](https://pypi.org/project/extra-keras-datasets/): `pip install extra-keras-datasets`.
