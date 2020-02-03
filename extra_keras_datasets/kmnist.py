@@ -9,7 +9,7 @@
 
 '''
 
-from keras.utils.data_utils import get_file
+from tensorflow.keras.utils import get_file
 import numpy as np
 
 def load_data(path='kmnist.npz', type='kmnist'):
