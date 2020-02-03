@@ -3,6 +3,7 @@ setup.cfg
 setup.py
 extra_keras_datasets\__init__.py
 extra_keras_datasets\emnist.py
+extra_keras_datasets\iris.py
 extra_keras_datasets\kmnist.py
 extra_keras_datasets\stl10.py
 extra_keras_datasets\svhn.py
