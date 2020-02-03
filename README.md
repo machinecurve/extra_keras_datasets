@@ -23,6 +23,7 @@ Hi there, and welcome to the `extra-keras-datasets` module! This extension to th
   * [SVHN-Normal](#svhn-normal)
   * [SVHN-Extra](#svhn-extra)
   * [STL-10](#stl-10)
+  * [Iris](#iris)
 - [Contributors and other references](#contributors-and-other-references)
 - [License](#license)
 
@@ -164,6 +165,20 @@ from extra-keras-datasets import stl10
 ```
 
 <a href="./assets/stl10.png"><img src="./assets/stl10.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
+
+---
+
+### Iris
+This is perhaps the best known database to be found in the pattern recognition literature. Fisher's paper is a classic in the field and is referenced frequently to this day. (See Duda & Hart, for example.) The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other.
+
+Predicted attribute: class of iris plant.
+
+```
+from extra-keras-datasets import iris
+(input_train, target_train), (input_test, target_test) = iris.load_data(test_split=0.2)
+```
+
+<a href="./assets/iris.png"><img src="./assets/iris.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
 
