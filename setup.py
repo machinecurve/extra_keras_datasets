@@ -12,7 +12,6 @@ setup(
   download_url = 'https://github.com/christianversloot/extra_keras_datasets/archive/0.1.6.tar.gz',
   keywords = ['keras', 'datasets', 'machine learning'],
   install_requires=[
-    'tensorflow-auto-detect',
     'numpy',
     'scipy'
   ],
