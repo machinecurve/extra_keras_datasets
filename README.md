@@ -44,7 +44,7 @@ Installing is really easy, and can be done with [PIP](https://pypi.org/project/e
 Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-Balanced` contains 131.600 characters across 47 balanced classes.
 
 ```
-from extra-keras-datasets import emnist
+from extra_keras_datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='balanced')
 ```
 
@@ -56,7 +56,7 @@ from extra-keras-datasets import emnist
 Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-ByClass` contains 814.255 characters across 62 unbalanced classes.
 
 ```
-from extra-keras-datasets import emnist
+from extra_keras_datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='byclass')
 ```
 
@@ -68,7 +68,7 @@ from extra-keras-datasets import emnist
 Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-ByMerge` contains 814.255 characters across 47 unbalanced classes.
 
 ```
-from extra-keras-datasets import emnist
+from extra_keras_datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='bymerge')
 ```
 
@@ -80,7 +80,7 @@ from extra-keras-datasets import emnist
 Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-Digits` contains 280.000 characters across 10 balanced classes (digits only).
 
 ```
-from extra-keras-datasets import emnist
+from extra_keras_datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='digits')
 ```
 
@@ -92,7 +92,7 @@ from extra-keras-datasets import emnist
 Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-Letters` contains 145.600 characters across 26 balanced classes (letters only).
 
 ```
-from extra-keras-datasets import emnist
+from extra_keras_datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='letters')
 ```
 
@@ -104,7 +104,7 @@ from extra-keras-datasets import emnist
 Extended MNIST (EMNIST) contains digits as well as uppercase and lowercase handwritten letters. `EMNIST-MNIST` contains 70.000 characters across 10 balanced classes (equal to `keras.datasets.mnist`).
 
 ```
-from extra-keras-datasets import emnist
+from extra_keras_datasets import emnist
 (input_train, target_train), (input_test, target_test) = emnist.load_data(type='mnist')
 ```
 
@@ -116,7 +116,7 @@ from extra-keras-datasets import emnist
 Kuzushiji-MNIST is a drop-in replacement for the MNIST dataset: it contains 70.000 28x28 grayscale images of Japanese Kuzushiji characters.
 
 ```
-from extra-keras-datasets import kmnist
+from extra_keras_datasets import kmnist
 (input_train, target_train), (input_test, target_test) = kmnist.load_data(type='kmnist')
 ```
 
@@ -128,7 +128,7 @@ from extra-keras-datasets import kmnist
 Kuzushiji-49 extends Kuzushiji-MNIST and contains 270.912 images across 49 classes.
 
 ```
-from extra-keras-datasets import kmnist
+from extra_keras_datasets import kmnist
 (input_train, target_train), (input_test, target_test) = kmnist.load_data(type='k49')
 ```
 
@@ -140,7 +140,7 @@ from extra-keras-datasets import kmnist
 The Street View House Numbers dataset (SVHN) contains 32x32 cropped images of house numbers obtained from Google Street View. There are 73.257 digits for training and 26.032 digits for testing. **Noncommercial** use is allowed only: [see the SVHN website for more information](http://ufldl.stanford.edu/housenumbers/).
 
 ```
-from extra-keras-datasets import svhn
+from extra_keras_datasets import svhn
 (input_train, target_train), (input_test, target_test) = svhn.load_data(type='normal')
 ```
 
@@ -152,7 +152,7 @@ from extra-keras-datasets import svhn
 SVHN-Extra extends SVHN-Normal with 531.131 less difficult samples and contains a total of 604.388 digits for training and 26.032 digits for testing. **Noncommercial** use is allowed only: [see the SVHN website for more information](http://ufldl.stanford.edu/housenumbers/).
 
 ```
-from extra-keras-datasets import svhn
+from extra_keras_datasets import svhn
 (input_train, target_train), (input_test, target_test) = svhn.load_data(type='extra')
 ```
 
@@ -164,7 +164,7 @@ from extra-keras-datasets import svhn
 The STL-10 dataset is an image recognition dataset for developing unsupervised feature learning, deep learning, self-taught learning algorithms. It contains 5.000 training images and 8.000 testing images, and represents 10 classes in total (airplane, bird, car, cat, deer, dog, horse, monkey, ship, truck).
 
 ```
-from extra-keras-datasets import stl10
+from extra_keras_datasets import stl10
 (input_train, target_train), (input_test, target_test) = stl10.load_data()
 ```
 
@@ -178,7 +178,7 @@ This is perhaps the best known database to be found in the pattern recognition l
 Predicted attribute: class of iris plant.
 
 ```
-from extra-keras-datasets import iris
+from extra_keras_datasets import iris
 (input_train, target_train), (input_test, target_test) = iris.load_data(test_split=0.2)
 ```
 
