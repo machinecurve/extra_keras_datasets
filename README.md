@@ -5,7 +5,7 @@
 </p>
 <p align="center"><b>📃🎉 Additional datasets for <code>tensorflow.keras</code></b></p>
 <p align="center">Powered by MachineCurve at www.machinecurve.com 🚀</p>
-<p align="center"><img src="https://github.com/christianversloot/extra_keras_datasets/workflows/Tests/badge.svg"></p>
+<p align="center"><img src="https://github.com/christianversloot/extra_keras_datasets/workflows/Tests/badge.svg"><img src="https://github.com/christianversloot/extra_keras_datasets/workflows/Build and Publish/badge.svg"></p>
 
 Hi there, and welcome to the `extra-keras-datasets` module! This extension to the original `tensorflow.keras.datasets` module offers easy access to additional datasets, in ways almost equal to how you're currently importing them.
 
