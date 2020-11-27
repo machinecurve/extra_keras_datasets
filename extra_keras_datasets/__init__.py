@@ -7,3 +7,5 @@ from . import kmnist
 from . import svhn
 from . import stl10
 from . import iris
+
+__all__ = ['emnist', 'kmnist', 'svhn', 'stl10', 'iris']
