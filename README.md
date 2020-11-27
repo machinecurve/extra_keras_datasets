@@ -1,8 +1,9 @@
 <p align="center">
   <img src="assets/extra_k_logo_neg.png" width="300" style="border: 3px solid #f6f8fa;">
 </p>
+<p align="center"><b>📃🎉 Additional datasets for `tensorflow.keras`</b></p>
 
-Hi there, and welcome to the `extra-keras-datasets` module! This extension to the original `keras.datasets` module offers easy access to additional datasets, in ways almost equal to how you're currently importing them.
+Hi there, and welcome to the `extra-keras-datasets` module! This extension to the original `tensorflow.keras.datasets` module offers easy access to additional datasets, in ways almost equal to how you're currently importing them.
 
 **Powered by MachineCurve at www.machinecurve.com**
 
@@ -30,10 +31,9 @@ Hi there, and welcome to the `extra-keras-datasets` module! This extension to th
 ## How to use this module?
 ### Dependencies
 **Make sure to install TensorFlow!**
-This package makes use of the TensorFlow 2.0+ package and specifically `tensorflow.keras`. Therefore, make sure to install TensorFlow - this has to be done yourself as PIP packages cannot distinguish between CPU and GPU versions properly.
+This package makes use of the TensorFlow 2.x package and specifically `tensorflow.keras`. Therefore, make sure to install TensorFlow - you can do so in the following way:
 
 * `pip install tensorflow`
-* `pip install tensorflow-gpu`
 
 ### Installation procedure
 Installing is really easy, and can be done with [PIP](https://pypi.org/project/extra-keras-datasets/): `pip install extra-keras-datasets`.
