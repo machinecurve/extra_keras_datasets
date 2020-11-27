@@ -1,11 +1,14 @@
 <p align="center">
+  <img src="assets/mc_logo.png" width="200">
+</p><p align="center">
   <img src="assets/extra_k_logo_neg.png" width="300" style="border: 3px solid #f6f8fa;">
 </p>
 <p align="center"><b>📃🎉 Additional datasets for <code>tensorflow.keras</code></b></p>
+<p align="center" style="margin-bottom: 45px;">Powered by MachineCurve at www.machinecurve.com 🚀</p>
 
 Hi there, and welcome to the `extra-keras-datasets` module! This extension to the original `tensorflow.keras.datasets` module offers easy access to additional datasets, in ways almost equal to how you're currently importing them.
 
-**Powered by MachineCurve at www.machinecurve.com**
+
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
