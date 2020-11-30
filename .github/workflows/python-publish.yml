@@ -16,18 +16,15 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.7'
+        python-version: '3.x'
     - name: Install dependencies
       run: |
-        sudo apt-get install gcc libpq-dev -y
-        sudo apt-get install python-dev  python-pip -y
-        sudo apt-get install python3-dev python3-pip python3-venv python3-wheel -y
-        pip3 install --upgrade pip
-        pip3 install setuptools wheel twine --upgrade --force
+        python -m pip install --upgrade pip
+        pip install setuptools wheel twine
     - name: Build and publish
       env:
         TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}
         TWINE_PASSWORD: ${{ secrets.PYPI_PASSWORD }}
       run: |
-        python3 setup.py sdist bdist_wheel
+        python setup.py sdist bdist_wheel
         twine upload dist/*
