@@ -47,13 +47,17 @@ def load_data(path="stl10_matlab.tar.gz"):
         Tuple of Numpy arrays: `(input_train, target_train),
                                   (input_test, target_test)`.
     """
+    # Set local .tar.gz path and delete if already available
+    local_targz_path = "./stl-10"
+    shutil.rmtree(local_targz_path, ignore_errors=True)
+
+    # Download STL-10 dataset
     path = get_file(
         path, origin=("http://ai.stanford.edu/~acoates/"
                       "stl10/stl10_matlab.tar.gz")
     )
 
     # Temporarily extract .tar.gz in local path
-    local_targz_path = "./stl-10"
     shutil.unpack_archive(path, local_targz_path)
 
     # Load data from Matlab file
