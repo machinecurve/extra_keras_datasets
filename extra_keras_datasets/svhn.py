@@ -16,6 +16,25 @@
 from tensorflow.keras.utils import get_file
 import numpy as np
 from scipy import io as sio
+import logging
+
+
+def warn_citation():
+    """Warns about citation requirements
+    # Returns
+      Void
+    """
+    logging.warning(("Please cite the following paper when using or"
+                     " referencing this Extra Keras Dataset:"))
+    logging.warning(
+        ("Yuval Netzer, Tao Wang, Adam Coates, Alessandro Bissacco, Bo Wu, "
+         "Andrew Y. Ng Reading Digits in Natural Images with Unsupervised "
+         "Feature Learning NIPS Workshop on Deep Learning and Unsupervised "
+         "Feature Learning 2011. Retrieved from "
+         "http://ufldl.stanford.edu/housenumbers/nips2011_housenumbers.pdf")
+      )
+    logging.warning(("Noncommercial use is allowed only: see the "
+                     "SVHN website for more information."))
 
 
 def load_data(path="svhn_matlab.npz", type="normal"):
@@ -65,6 +84,9 @@ def load_data(path="svhn_matlab.npz", type="normal"):
         target_extra = mat_extra["y"].flatten()
         input_train = np.concatenate((input_extra, input_train))
         target_train = np.concatenate((target_extra, target_train))
+
+    # Warn about citation
+    warn_citation()
 
     # Return data
     return (input_train, target_train), (input_test, target_test)
