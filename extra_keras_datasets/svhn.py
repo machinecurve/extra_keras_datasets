@@ -48,6 +48,11 @@ def load_data(path="svhn_matlab.npz", type="normal"):
         Tuple of Numpy arrays: `(input_train, target_train),
                                   (input_test, target_test)`.
     """
+    # Log about loading
+    logging.basicConfig(level=logging.INFO)
+    logging.info('Loading dataset = svhn')
+
+    # Load data
     path_train = get_file(
         f"{path}_train", origin=("http://ufldl.stanford.edu/housenumbers/"
                                  "train_32x32.mat")

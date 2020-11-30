@@ -46,6 +46,11 @@ def load_data(path="emnist_matlab.npz", type="balanced"):
         Tuple of Numpy arrays: `(input_train, target_train),
                                   (input_test, target_test)`.
     """
+    # Log about loading
+    logging.basicConfig(level=logging.INFO)
+    logging.info('Loading dataset = emnist')
+
+    # Load data
     path = get_file(
         path, origin=("http://www.itl.nist.gov/iaui/vip/cs_links/EMNIST/"
                       "matlab.zip")

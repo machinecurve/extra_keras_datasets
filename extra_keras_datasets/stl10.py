@@ -47,6 +47,10 @@ def load_data(path="stl10_matlab.tar.gz"):
         Tuple of Numpy arrays: `(input_train, target_train),
                                   (input_test, target_test)`.
     """
+    # Log about loading
+    logging.basicConfig(level=logging.INFO)
+    logging.info('Loading dataset = stl-10')
+
     # Set local .tar.gz path and delete if already available
     local_targz_path = "./stl-10"
     shutil.rmtree(local_targz_path, ignore_errors=True)

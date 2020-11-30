@@ -46,6 +46,11 @@ def load_data(path="iris.npz", test_split=0.2):
         Target structure: 0 = iris setosa; 1 = iris versicolor;
                             2 = iris virginica.
     """
+    # Log about loading
+    logging.basicConfig(level=logging.INFO)
+    logging.info('Loading dataset = iris')
+
+    # Load data
     path = get_file(
         path,
         origin=("http://archive.ics.uci.edu/ml/machine-learning-databases/"
