@@ -42,6 +42,10 @@ def load_data(path="kmnist.npz", type="kmnist"):
         Tuple of Numpy arrays: `(input_train, target_train),
                                   (input_test, target_test)`.
     """
+    # Log about loading
+    logging.basicConfig(level=logging.INFO)
+    logging.info('Loading dataset = kmnist')
+
     # Load training images
     path_train = get_file(
         f"{path}_{type}_train_imgs",
