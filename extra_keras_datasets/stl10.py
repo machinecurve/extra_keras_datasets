@@ -19,6 +19,23 @@ from tensorflow.keras.utils import get_file
 from scipy import io as sio
 import shutil
 import numpy as np
+import logging
+
+
+def warn_citation():
+    """Warns about citation requirements
+    # Returns
+      Void
+    """
+    logging.warning(("Please cite the following paper when using or"
+                     " referencing this Extra Keras Dataset:"))
+    logging.warning(
+        ("Coates, A., Ng, A., & Lee, H. (2011, June). An analysis of single-"
+         "layer networks in unsupervised feature learning. In Proceedings of"
+         " the fourteenth international conference on artificial "
+         "intelligence and statistics (pp. 215-223).Retrieved from "
+         "http://cs.stanford.edu/~acoates/papers/coatesleeng_aistats_2011.pdf")
+      )
 
 
 def load_data(path="stl10_matlab.tar.gz"):
@@ -58,6 +75,9 @@ def load_data(path="stl10_matlab.tar.gz"):
     input_test = test["X"].reshape((-1, 3, 96, 96))
     input_test = np.transpose(input_test, (0, 3, 2, 1))
     target_test = test["y"].flatten()
+
+    # Warn about citation
+    warn_citation()
 
     # Return data
     return (input_train, target_train), (input_test, target_test)

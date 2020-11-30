@@ -14,6 +14,22 @@
 
 from tensorflow.keras.utils import get_file
 import numpy as np
+import logging
+
+
+def warn_citation():
+    """Warns about citation requirements
+    # Returns
+      Void
+    """
+    logging.warning(("Please cite the following paper when using or"
+                     " referencing this Extra Keras Dataset:"))
+    logging.warning(
+        ("Clanuwat, T., Bober-Irizar, M., Kitamoto, A., Lamb, A., "
+         "Yamamoto, K., & Ha, D. (2018). Deep learning for classical "
+         "Japanese literature arXiv preprint arXiv:1812.01718. "
+         "Retrieved from https://arxiv.org/abs/1812.01718")
+      )
 
 
 def load_data(path="kmnist.npz", type="kmnist"):
@@ -57,6 +73,9 @@ def load_data(path="kmnist.npz", type="kmnist"):
                 f"{type}-test-labels.npz")
     )
     target_test = np.load(path_test_labels)["arr_0"]
+
+    # Warn about citation
+    warn_citation()
 
     # Return data
     return (input_train, target_train), (input_test, target_test)

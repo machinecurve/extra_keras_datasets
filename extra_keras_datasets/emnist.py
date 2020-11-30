@@ -18,6 +18,21 @@ from tensorflow.keras.utils import get_file
 from zipfile import ZipFile
 from scipy import io as sio
 import os
+import logging
+
+
+def warn_citation():
+    """Warns about citation requirements
+    # Returns
+      Void
+    """
+    logging.warning(("Please cite the following paper when using or"
+                     " referencing this Extra Keras Dataset:"))
+    logging.warning(
+        ("Cohen, G., Afshar, S., Tapson, J., & van Schaik, A. (2017). EMNIST: "
+         "an extension of MNIST to handwritten letters. "
+         "Retrieved from http://arxiv.org/abs/1702.05373")
+      )
 
 
 def load_data(path="emnist_matlab.npz", type="balanced"):
@@ -63,6 +78,9 @@ def load_data(path="emnist_matlab.npz", type="balanced"):
         input_test = input_test.reshape(
           (input_test.shape[0], 28, 28), order="F"
         )
+
+        # Warn about citation
+        warn_citation()
 
         # Return data
         return (input_train, target_train), (input_test, target_test)
