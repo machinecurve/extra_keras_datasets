@@ -19,7 +19,7 @@ jobs:
         python-version: '3.7'
     - name: Install dependencies
       run: |
-        python -m pip3 install --upgrade pip
+        python -m pip install --upgrade pip
         pip3 install setuptools wheel twine --upgrade --force
     - name: Build and publish
       env:
