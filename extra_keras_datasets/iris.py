@@ -14,6 +14,22 @@
 from tensorflow.keras.utils import get_file
 import numpy as np
 import math
+import logging
+
+
+def warn_citation():
+    """Warns about citation requirements
+    # Returns
+      Void
+    """
+    logging.warning(("Please cite the following paper when using or"
+                     " referencing this Extra Keras Dataset:"))
+    logging.warning(
+        ("Fisher,R.A. \"The use of multiple measurements in taxonomic "
+         "problems\" Annual Eugenics, 7, Part II, 179-188 (1936); also "
+         "in \"Contributions to Mathematical Statistics\" (John Wiley"
+         ", NY, 1950).")
+      )
 
 
 def load_data(path="iris.npz", test_split=0.2):
@@ -63,6 +79,9 @@ def load_data(path="iris.npz", test_split=0.2):
     input_test = [i[0:4] for i in testing_data]
     target_train = [i[4] for i in training_data]
     target_test = [i[4] for i in testing_data]
+
+    # Warn about citation
+    warn_citation()
 
     # Return data
     return (input_train, target_train), (input_test, target_test)
