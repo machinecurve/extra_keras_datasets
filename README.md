@@ -220,7 +220,7 @@ from extra_keras_datasets import usps
 
 <a href="./assets/usps.png"><img src="./assets/usps.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
-===
+---
 
 ## Contributors and other references
 * **EMNIST dataset:**
