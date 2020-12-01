@@ -5,9 +5,9 @@ name: Tests
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, dataset-release ]
   pull_request:
-    branches: [ master ]
+    branches: [ master, dataset-release ]
 
 jobs:
   build:
