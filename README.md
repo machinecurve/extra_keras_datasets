@@ -9,7 +9,9 @@
 
 Hi there, and welcome to the `extra-keras-datasets` module! This extension to the original `tensorflow.keras.datasets` module offers easy access to additional datasets, in ways almost equal to how you're currently importing them.
 
+_The `extra-keras-datasets` module is not affiliated, associated, authorized, endorsed by, or in any way officially connected with TensorFlow, Keras, or any of its subsidiaries or its affiliates. The official TensorFlow and Keras websites can be found at https://www.tensorflow.org/ and https://keras.io/._
 
+_The names TensorFlow, Keras, as well as related names, marks, emblems and images are registered trademarks of their respective owners._
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
