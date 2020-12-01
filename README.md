@@ -30,6 +30,7 @@ _The names TensorFlow, Keras, as well as related names, marks, emblems and image
   * [STL-10](#stl-10)
   * [Iris](#iris)
   * [Wine Quality dataset](#wine-quality-dataset)
+  * [USPS Handwritten Digits Dataset](#usps-handwritten-digits-dataset)
 - [Contributors and other references](#contributors-and-other-references)
 - [License](#license)
 
@@ -205,6 +206,21 @@ from extra_keras_datasets import wine_quality
 <a href="./assets/wine_quality.jpg"><img src="./assets/wine_quality.jpg" width="100%" style="border: 3px solid #f6f8fa;" /></a>
 
 ---
+
+### USPS Handwritten Digits Dataset
+This dataset presents thousands of 16x16 grayscale images of handwritten digits, generated from real USPS based mail.
+
+* Input structure: 16x16 image
+* Target structure: digit ranging from 0.0 - 9.0 describing the input
+
+```
+from extra_keras_datasets import usps
+(input_train, target_train), (input_test, target_test) = usps.load_data()
+```
+
+<a href="./assets/usps.png"><img src="./assets/usps.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
+
+===
 
 ## Contributors and other references
 * **EMNIST dataset:**
