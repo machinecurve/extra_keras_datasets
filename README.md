@@ -31,6 +31,7 @@ _The names TensorFlow, Keras, as well as related names, marks, emblems and image
   * [SVHN-Extra](#svhn-extra)
   * [STL-10](#stl-10)
   * [Iris](#iris)
+  * [Wine Quality dataset](#wine-quality-dataset)
 - [Contributors and other references](#contributors-and-other-references)
 - [License](#license)
 
@@ -42,7 +43,7 @@ This package makes use of the TensorFlow 2.x package and specifically `tensorflo
 * `pip install tensorflow`
 
 ### Installation procedure
-Installing is really easy, and can be done with [PIP](https://pypi.org/project/extra-keras-datasets/): `pip install extra-keras-datasets`.
+Installing is really easy, and can be done with [PIP](https://pypi.org/project/extra-keras-datasets/): `pip install extra-keras-datasets`. The package depends on `numpy`, `scipy`, `pandas` and `scikit-learn`, which will be automatically installed.
 
 ## Datasets
 
@@ -192,6 +193,21 @@ from extra_keras_datasets import iris
 
 ---
 
+### Wine Quality dataset
+This dataset presents wine qualities related to red and white vinho verde wine samples, from the north of Portugal. According to the creators, "[the] goal is to model wine quality based on physicochemical tests". Various chemical properties of the wine are available as well (`inputs`) as well as the quality score (`targets`) for the wine.
+
+* Input structure: (fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, wine type)
+* Target structure: quality score between 0 and 10
+
+```
+from extra_keras_datasets import wine_quality
+(input_train, target_train), (input_test, target_test) = wine_quality.load_data(which_data='both', test_split=0.2, shuffle=True)
+```
+
+<a href="./assets/wine_quality.jpg"><img src="./assets/wine_quality.jpg" width="100%" style="border: 3px solid #f6f8fa;" /></a>
+
+---
+
 ## Contributors and other references
 * **EMNIST dataset:**
   * Cohen, G., Afshar, S., Tapson, J., & van Schaik, A. (2017). EMNIST: an extension of MNIST to handwritten letters. Retrieved from http://arxiv.org/abs/1702.05373
@@ -204,6 +220,8 @@ from extra_keras_datasets import iris
   * Coates, A., Ng, A., & Lee, H. (2011, June). An analysis of single-layer networks in unsupervised feature learning. In Proceedings of the fourteenth international conference on artificial intelligence and statistics (pp. 215-223). Retrieved from http://cs.stanford.edu/~acoates/papers/coatesleeng_aistats_2011.pdf
 * **Iris dataset:**
   * Fisher,R.A. "The use of multiple measurements in taxonomic problems" Annual Eugenics, 7, Part II, 179-188 (1936); also in "Contributions to Mathematical Statistics" (John Wiley, NY, 1950).
+* **Wine Quality dataset:**
+  * P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
 
 ## License
 The licenseable parts of this repository are licensed under a [MIT License](./LICENSE), so you're free to use this repo in your machine learning projects / blogs / exercises, and so on. Happy engineering! 🚀

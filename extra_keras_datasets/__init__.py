@@ -7,5 +7,6 @@ from . import kmnist
 from . import svhn
 from . import stl10
 from . import iris
+from . import wine_quality
 
-__all__ = ['emnist', 'kmnist', 'svhn', 'stl10', 'iris']
+__all__ = ['emnist', 'kmnist', 'svhn', 'stl10', 'iris', 'wine_quality']
