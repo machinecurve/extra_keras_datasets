@@ -13,7 +13,7 @@ setup(
     download_url=("https://github.com/christianversloot/"
                   "extra_keras_datasets/archive/{{VERSION}}.tar.gz"),
     keywords=["keras", "datasets", "machine learning"],
-    install_requires=["numpy", "scipy"],
+    install_requires=["numpy", "scipy", "pandas", "scikit-learn"],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
