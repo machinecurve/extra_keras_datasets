@@ -236,6 +236,8 @@ from extra_keras_datasets import usps
   * Fisher,R.A. "The use of multiple measurements in taxonomic problems" Annual Eugenics, 7, Part II, 179-188 (1936); also in "Contributions to Mathematical Statistics" (John Wiley, NY, 1950).
 * **Wine Quality dataset:**
   * P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+* **USPS Handwritten Digits Dataset**
+  * Hull, J. J. (1994). A database for handwritten text recognition research. IEEE Transactions on pattern analysis and machine intelligence, 16(5), 550-554.
 
 ## License
 The licenseable parts of this repository are licensed under a [MIT License](./LICENSE), so you're free to use this repo in your machine learning projects / blogs / exercises, and so on. Happy engineering! 🚀
