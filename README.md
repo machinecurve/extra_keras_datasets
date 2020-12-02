@@ -30,6 +30,7 @@ _The names TensorFlow, Keras, as well as related names, marks, emblems and image
   * [STL-10](#stl-10)
   * [Iris](#iris)
   * [Wine Quality dataset](#wine-quality-dataset)
+  * [USPS Handwritten Digits Dataset](#usps-handwritten-digits-dataset)
 - [Contributors and other references](#contributors-and-other-references)
 - [License](#license)
 
@@ -206,6 +207,21 @@ from extra_keras_datasets import wine_quality
 
 ---
 
+### USPS Handwritten Digits Dataset
+This dataset presents thousands of 16x16 grayscale images of handwritten digits, generated from real USPS based mail.
+
+* Input structure: 16x16 image
+* Target structure: digit ranging from 0.0 - 9.0 describing the input
+
+```
+from extra_keras_datasets import usps
+(input_train, target_train), (input_test, target_test) = usps.load_data()
+```
+
+<a href="./assets/usps.png"><img src="./assets/usps.png" width="100%" style="border: 3px solid #f6f8fa;" /></a>
+
+---
+
 ## Contributors and other references
 * **EMNIST dataset:**
   * Cohen, G., Afshar, S., Tapson, J., & van Schaik, A. (2017). EMNIST: an extension of MNIST to handwritten letters. Retrieved from http://arxiv.org/abs/1702.05373
@@ -220,6 +236,8 @@ from extra_keras_datasets import wine_quality
   * Fisher,R.A. "The use of multiple measurements in taxonomic problems" Annual Eugenics, 7, Part II, 179-188 (1936); also in "Contributions to Mathematical Statistics" (John Wiley, NY, 1950).
 * **Wine Quality dataset:**
   * P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. Modeling wine preferences by data mining from physicochemical properties. In Decision Support Systems, Elsevier, 47(4):547-553, 2009.
+* **USPS Handwritten Digits Dataset**
+  * Hull, J. J. (1994). A database for handwritten text recognition research. IEEE Transactions on pattern analysis and machine intelligence, 16(5), 550-554.
 
 ## License
 The licenseable parts of this repository are licensed under a [MIT License](./LICENSE), so you're free to use this repo in your machine learning projects / blogs / exercises, and so on. Happy engineering! 🚀

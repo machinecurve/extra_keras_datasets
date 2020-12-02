@@ -8,5 +8,6 @@ from . import svhn
 from . import stl10
 from . import iris
 from . import wine_quality
+from . import usps
 
-__all__ = ['emnist', 'kmnist', 'svhn', 'stl10', 'iris', 'wine_quality']
+__all__ = ['emnist', 'kmnist', 'svhn', 'stl10', 'iris', 'wine_quality', 'usps']
